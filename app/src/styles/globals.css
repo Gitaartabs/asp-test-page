@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+  height: 100%;
+  background: radial-gradient(ellipse at top, #1a1033 0%, #0b0a1f 60%, #05040f 100%);
+  color: #f5f3ff;
+}
+
+* {
+  -webkit-tap-highlight-color: transparent;
+}
